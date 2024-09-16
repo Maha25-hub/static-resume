@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #952c99;
+    color: #26032b;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(160, 148, 170);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Personal Information */
+.personal-info {
+    text-align: center;
+}
+
+.personal-info h1 {
+    margin-bottom: 10px;
+}
+
+.personal-info .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px 0;
+}
+
+.personal-info a {
+    color: #242581;
+    text-decoration: none;
+}
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+/* Skills Section */
+#toggle-skills-btn {
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #19011b;
+    color: white;
+    border: none;
+    cursor:pointer ;
+}
+
+#toggle-skills-btn:hover {
+    background-color: #ff78bc;
+}
